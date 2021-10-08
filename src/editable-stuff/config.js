@@ -55,7 +55,7 @@ const about = {
   imageSize: 375,
   message:
     "My name is Azher Saeed. I will graduate in 2022 from University of Education with a degree in Information Technology. I'm most passionate about giving back to the community, and my goal is to pursue this passion within the field of Informatin Technology. In my free time I like working on open source projects.",
-    resume: "https://docs.google.com/document/d/13_PWdhThMr6roxb-UFiJj4YAFOj8e_bv3Vx9UHQdyBQ/edit?usp=sharing",
+    resume: "https://drive.google.com/file/d/1-Ki-7HQbj1tsbeIDcgH3tq0h-1lVVL1o/view?usp=sharing",
 };
 
 // PROJECTS SECTION
@@ -67,7 +67,7 @@ const repos = {
   show: true,
   heading: "Recent Projects",
   gitHubUsername: "AzherSaeed", //i.e."johnDoe12Gh"
-  reposLength: 10,
+  reposLength: 4,
   specificRepos: [],
 };
 
@@ -126,7 +126,7 @@ const getInTouch = {
   show: true,
   heading: "Get In Touch",
   message:
-    "I'm currently looking for full-time Software Engineering or Machine Learning opportunities! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
+    "I'm currently looking for full-time Software Engineering! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
   email: "azherofficial2020@gmail.com",
 };
 
@@ -135,15 +135,16 @@ const experiences = {
   heading: "Experiences",
   data: [
     {
-      role: 'MERN Stack Developer',// Here Add Company Name
-      companylogo: require('../assets/img/zapta1.png'),
-      date: 'June 2018 – Present',
-    },
-    {
       role: 'React Developer',
       companylogo: require('../assets/img/onsets.png'),
-      date: 'May 2017 – May 2018',
+      date: 'July 2020 – Jun 2021',
     },
+    {
+      role: 'MERN Stack Developer',// Here Add Company Name
+      companylogo: require('../assets/img/zapta1.png'),
+      date: 'June 2021 – Present',
+    },
+    
   ]
 }
 

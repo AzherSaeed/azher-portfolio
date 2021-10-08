@@ -13,6 +13,7 @@ import {
 import MainBody from "./components/home/MainBody";
 import AboutMe from "./components/home/AboutMe";
 import Project from "./components/home/Project";
+import LivePorjectCard from "./components/home/livePorjectCard";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import Skills from "./components/home/Skills";
@@ -47,6 +48,7 @@ const Home = React.forwardRef((props, ref) => {
           <Experience experiences={experiences}/>
         )
       }
+      <LivePorjectCard/>
       {repos.show && (
         <Project
           heading={repos.heading}
